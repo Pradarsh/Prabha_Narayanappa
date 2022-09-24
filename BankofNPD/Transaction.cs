@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankofNPD
 {
-    
+
 
     public class Transaction
     {
@@ -20,5 +20,15 @@ namespace BankofNPD
             Date = date;
             Notes = note;
         }
+        public void TestTransaction()
+        {
+
+        }
+        public int AddNumber(int a, int b)            
+        {
+            var sum = a + b;
+            return sum;            
+        }        
     }
 }
+
