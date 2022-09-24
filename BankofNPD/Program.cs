@@ -9,7 +9,7 @@ namespace BankofNPD
             var account = new BankAccount("Nia", 1000000);
             Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
 
-            account.MakeWithdrawal(2000, DateTime.Now, "Rent");
+            account.MakeWithdrawal(2000, DateTime.Now, "House");
             Console.WriteLine(account.Balance);
             account.MakeWithdrawal(1000, DateTime.Now, "Toys");
             Console.WriteLine(account.Balance);
